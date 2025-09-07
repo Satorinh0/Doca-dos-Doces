@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  color: black;
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  max-width: 2000px;
+  margin: auto;
+  padding: 0.5rem 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Teko;
+  font-size: 2rem;
+  font-weight: 300rem;
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  gap: 2.0rem;
+}
+
+.Github {
+  color: black;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background-image: url(assets/lime.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sobre {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 3rem; 
+  margin: 2rem auto;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.card {
+  flex: 1 1 220px;
+  max-width: 15rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: rgb(26, 22, 22);
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 3 / 4;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.card-title {
+  color: rgb(248, 248, 248);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sobremesas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 8rem;
+  border-radius: 8px;
+}
+
+.sobremesas .sobremesa {
+  flex: 1;
+  line-height: 1.6rem;
+  font-size: 1.0rem;
+}
+
+.sobremesas .imagemt img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 1rem; }
+
+.sobremesas p {
+  height: auto; }
+
+button {
+  background-color: rgb(65, 50, 28);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.header_img {
+  background-image: url(assets/a.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(252, 245, 245);
+  padding-top: 1rem;
+}
+
+.proximo-bloco {
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+.boba_item {
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+
+.boba_img {
+  width: 280px;
+  height: 380px;
+  border-radius: 8px;
+  display: block;
+}
+
+.bebidas_btn {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  margin-top: 20px;
+}
+
+.bebidas_card {
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 80px;
+}
+
+.btn-img {
+  background: none;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.logomarca {
+   width: 5%;
+   height: 50px;
+}
